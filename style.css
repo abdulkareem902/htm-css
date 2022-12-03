@@ -1,0 +1,91 @@
+body{
+    background-color: #303952;
+}
+
+.game{
+    width: 455px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+.title{
+    padding: 10px;
+    background-color: #000096;
+    width: 348px;
+    margin-left: 2px;
+    color: cornsilk;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
+
+
+.title span{
+    color: #fbc531;
+}
+
+.sqour{
+    width: 120px;
+    height: 100px;
+    background-color: #000096;
+    float: left;
+    margin: 2px;
+    color: #fbc531;
+    font-size: 50px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 0;
+    border-radius: 20px;
+
+}
+.sqour:hover{
+    background-color: #fffe01;
+    transition: .5s;
+    color: #1B1464;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn3{
+    background-color: coral;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn3:hover{
+    background-color: #fff;
+}
+
+
+.btn2{
+    background-color: #000096;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fffe01;
+    font-weight: bold;
+    transition: .5s;
+    position: relative;
+    top: -90px;
+    right: 220px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: #fffe01;
+    color: #000096;
+}
